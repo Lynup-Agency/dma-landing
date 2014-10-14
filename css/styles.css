@@ -1685,11 +1685,78 @@ td {
  * Masthead is used as the top section on pages, typically containing the 
  * page title.
  */
+.masthead {
+  height: 460px;
+  background-image: url("../img/dma-header.jpg");
+}
+.masthead .lockup {
+  float: right;
+  margin-right: 40px;
+  top: 100px;
+}
+.masthead .top-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.head-banner {
+  position: relative;
+  background-color: white;
+  height: 150px;
+}
+.head-banner .tagline {
+  margin: auto;
+  top: 40px;
+}
+
 /**
  * $NAVBAR
  * ==========================================================================
  * This is the main navbar shown at the top of the page.
  */
+/**
+ * $MASTHEAD
+ * ==========================================================================
+ * Masthead is used as the top section on pages, typically containing the 
+ * page title.
+ */
+body {
+  background-image: url("../img/landing-template.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 1396px;
+}
+body img, body div {
+  display: block;
+}
+
+.container {
+  max-width: 980px;
+}
+
+.main-block {
+  background-color: #ed3123;
+  height: 630px;
+}
+
+.footer {
+  height: 155px;
+  background-color: white;
+}
+.footer hr {
+  position: relative;
+  width: 85%;
+}
+.footer p {
+  font-size: 10px;
+  color: #d1d3d4;
+  margin: auto;
+  text-align: center;
+  margin-top: -15px;
+}
+
 /**
  * $INTERLUDE
  * ==========================================================================
