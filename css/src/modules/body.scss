@@ -9,6 +9,7 @@
 		background-image: url('../img/landing-template.jpg');
 		background-repeat: no-repeat;
 		background-position: center top;
+		background-color: #ebebeb;
 		width: 100%;
 		height: 1396px;
 
@@ -19,12 +20,88 @@
 
 
 	.container{
-		max-width: 980px;
+		max-width: 980px !important;
+		// min-width: 980px !important;
 	}
 
 	.main-block{
+		background-image: url('../img/red-bg.png');
+		background-repeat: repeat-x;
+		background-position: top;
 		background-color: #ed3123;
-		height: 630px;
+		height: 625px;
+
+		.content-box{
+			width: 380px;
+			width: 380px;
+			border-radius: 5px;
+			position: relative;
+			top: 35px;
+			margin: 0 40px;
+			display: inline-block;
+			vertical-align: top;
+
+			p{
+				color: #fff;
+			}
+		}
+
+		.right{
+			background-color: #f3f3f3;
+			height: 553px;
+
+			.form-header{
+				margin: 20px auto;
+				margin-bottom: 40px;
+			}
+
+			form{
+				margin-left: 42px;
+
+				.sched-btn{
+					margin-top:20px;
+				}
+			}
+
+			form span{
+				display: block;
+				color: #000;
+				font-size: 14px;
+				margin-top: 12px;
+			}
+
+			form input[type=text], form input{
+				border-radius: 4px;
+				height: 30px;
+				border: 1px #ccc solid;
+				font-size: 18px;
+				color: #333;
+			}
+
+			form input[type=submit]{
+						background-color: #ed3123;						
+						border: none;
+						color: #fff;
+						font-size: 14px;
+						padding: 0 12px;
+			}
+			form input[type=submit]:hover{
+				background-color: #ce2215;		
+			}
+
+			.select-box{
+				margin-top: 12px;
+
+				select{
+					width: 285px;
+					height: 30px;
+					font-weight: bold;
+					padding-left: 5px;
+				}
+			}
+
+
+		}
 	}
 
 	.footer{
@@ -33,7 +110,7 @@
 
 		hr{
 			position: relative;
-			width: 85%;
+			width: 55%;
 		}
 
 		p{

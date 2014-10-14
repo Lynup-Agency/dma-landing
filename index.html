@@ -18,11 +18,56 @@
 			</div>
 
 			<div class="head-banner">
+				<img class="pointer" src="img/blue-arrow.png"/>
 				<img class="tagline" src="img/lynup-tagline.png"/>
 			</div>
 
 			<div class="main-block">
+				<div class="content-box left">
+					<p>We would love the chance to meet you at the DMA show in San Diego. Please stop by booth 1426 and say hello! If we happen to not cross paths at the DMA, we want to extend a personal invite for you to come see our nearby creative offices. We are literally a few trolley stops away from the DMA show! Being a social business, our doors are always open to you.</p>
 
+					<p>Whether we meet at the show, or at our creative space we’ll take the time to get to know more about your business and share a bit about our own. We help brands like yours with a valuable opportunity to reach your audience in a more human-to-human approach. Put simply, people desire the chance to engage with brands more personally. We can help!</p>
+				</div>
+				<div class="content-box right">
+					<img class="form-header" src="img/form-header.png"/>
+
+					<form method="post" action="upload.php" enctype="multipart/form-data"> 			
+						<div>
+							<span class="input-title">First Name<sup>*</sup></span>
+							<input type="text" name="f_name" size="25"> 
+						</div>
+						<div>
+							<span class="input-title">Last Name<sup>*</sup></span>
+							<input type="text" name="l_name" size="25">
+						</div> 
+						<div>
+							<span class="input-title">Company<sup>*</sup></span>
+							<input type="text" name="company_name" size="25"> 
+						</div>
+						<div>
+							<span class="input-title">Phone<sup>*</sup></span>
+							<input type="text" name="phone_num" size="25"> 
+						</div>
+						<div class="select-box">
+							<select name="meeting" form="">
+								<option value="dma">How do you want to meet?</option>
+							  <option value="dma">At the DMA</option>
+							  <option value="office">At Lynup Headquarters</option>
+							</select>
+						</div>
+						
+						 <div class="sched-btn">
+						 	<input type="submit" name="submit" value="SCHEDULE MY MEETING WITH LYNUP!"> 
+						 </div>
+						 </form>
+ 
+<!-- PHP SNIPET TO USE
+
+<!-- ? $name=$_POST['name']; $email=$_POST['email']; $location=$_POST['location']; mysql_connect("your.hostaddress.com", "username", "password") or die(mysql_error()); mysql_select_db("Database_Name") or die(mysql_error()); mysql_query("INSERT INTO `data` VALUES ('$name', '$email', '$location')"); Print "Your information has been successfully added to the database."; ?
+
+-->
+					</div>
+				</div>
 			</div>
 
 			<div class="footer">
@@ -30,8 +75,6 @@
 				<hr/>
 				<p>Designed by Lynup Creative Team. Copyright © 2014. All Rights Reserved. Don't steal our stuff!</p>
 			</div>
-
-
 		</div>
 
 		<!-- Load Scripts -->

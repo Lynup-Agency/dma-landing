@@ -22,9 +22,19 @@
 }
 
 .head-banner{
+	background-image: url('../img/white-bg.png');
+	background-repeat: repeat-x;
+	background-position: top;
 	position: relative;
 	background-color: white;
 	height: 150px;
+
+	.pointer{
+		position: absolute;
+		z-index: 30;
+		margin-top: -90px;
+		margin-left: 25px;
+	}
 
 	.tagline{
 		margin:auto;

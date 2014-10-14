@@ -1701,9 +1701,18 @@ td {
 }
 
 .head-banner {
+  background-image: url("../img/white-bg.png");
+  background-repeat: repeat-x;
+  background-position: top;
   position: relative;
   background-color: white;
   height: 150px;
+}
+.head-banner .pointer {
+  position: absolute;
+  z-index: 30;
+  margin-top: -90px;
+  margin-left: 25px;
 }
 .head-banner .tagline {
   margin: auto;
@@ -1725,6 +1734,7 @@ body {
   background-image: url("../img/landing-template.jpg");
   background-repeat: no-repeat;
   background-position: center top;
+  background-color: #ebebeb;
   width: 100%;
   height: 1396px;
 }
@@ -1733,12 +1743,74 @@ body img, body div {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 980px !important;
 }
 
 .main-block {
+  background-image: url("../img/red-bg.png");
+  background-repeat: repeat-x;
+  background-position: top;
   background-color: #ed3123;
-  height: 630px;
+  height: 625px;
+}
+.main-block .content-box {
+  width: 380px;
+  width: 380px;
+  border-radius: 5px;
+  position: relative;
+  top: 35px;
+  margin: 0 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+.main-block .content-box p {
+  color: #fff;
+}
+.main-block .right {
+  background-color: #f3f3f3;
+  height: 553px;
+}
+.main-block .right .form-header {
+  margin: 20px auto;
+  margin-bottom: 40px;
+}
+.main-block .right form {
+  margin-left: 42px;
+}
+.main-block .right form .sched-btn {
+  margin-top: 20px;
+}
+.main-block .right form span {
+  display: block;
+  color: #000;
+  font-size: 14px;
+  margin-top: 12px;
+}
+.main-block .right form input[type=text], .main-block .right form input {
+  border-radius: 4px;
+  height: 30px;
+  border: 1px #ccc solid;
+  font-size: 18px;
+  color: #333;
+}
+.main-block .right form input[type=submit] {
+  background-color: #ed3123;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 0 12px;
+}
+.main-block .right form input[type=submit]:hover {
+  background-color: #ce2215;
+}
+.main-block .right .select-box {
+  margin-top: 12px;
+}
+.main-block .right .select-box select {
+  width: 285px;
+  height: 30px;
+  font-weight: bold;
+  padding-left: 5px;
 }
 
 .footer {
@@ -1747,7 +1819,7 @@ body img, body div {
 }
 .footer hr {
   position: relative;
-  width: 85%;
+  width: 55%;
 }
 .footer p {
   font-size: 10px;
