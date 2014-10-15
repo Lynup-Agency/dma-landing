@@ -1743,6 +1743,7 @@ body img, body div {
 
 .container {
   max-width: 980px !important;
+  min-width: 980px !important;
 }
 
 .main-block {
