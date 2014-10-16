@@ -1700,6 +1700,11 @@ td {
   right: 0;
 }
 
+.thankyou {
+  background-image: none;
+  height: 350px;
+}
+
 .head-banner {
   background-image: url("../img/white-bg.png");
   background-repeat: repeat-x;
@@ -1717,6 +1722,37 @@ td {
 .head-banner .tagline {
   margin: auto;
   top: 40px;
+}
+
+.thanksline {
+  height: 600px;
+}
+
+.social-links {
+  top: 80px;
+  text-align: center;
+  position: relative;
+}
+.social-links img {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.domain-urls {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+.domain-urls img {
+  margin: 60px auto;
+}
+
+a, a:link {
+  color: #000;
+}
+
+a:hover {
+  color: #ff0000;
 }
 
 /**
@@ -1765,7 +1801,8 @@ body img, body div {
 }
 .main-block .content-box p {
   color: #fff;
-  font-size: 19px;
+  font-size: 18px;
+  line-height: 23px;
 }
 .main-block .right {
   background-color: #f3f3f3;
